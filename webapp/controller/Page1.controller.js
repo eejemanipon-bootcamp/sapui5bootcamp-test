@@ -3,8 +3,9 @@ sap.ui.define([
 ], (Controller) => {
     "use strict";
 
-    return Controller.extend("com.ui5.test.sapui5bootcamptest.controller.Test1", {
+    return Controller.extend("com.ui5.test.sapui5bootcamptest.controller.Page1", {
         onInit() {
-        }
+            
+        },
     });
 });

@@ -1,0 +1,14 @@
+<mvc:View controllerName="com.ui5.test.sapui5bootcamptest.controller.NotFound"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page-notfound"  class="sapUiResponsiveContentPadding">
+        <content>
+            <IllustratedMessage
+                id="im-notfound"
+                illustrationType="sapIllus-PageNotFound"
+                title="{i18n>notFound.title}"
+                description="{i18n>notFound.description}"
+            />
+        </content>
+    </Page>
+</mvc:View>

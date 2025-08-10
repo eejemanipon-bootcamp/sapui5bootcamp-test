@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.ui5.test.sapui5bootcamptest.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="home" title="{i18n>title}" class="sapUiResponsiveContentPadding">
+        <content>
+            <Link id="link-detail" text="{i18n>gotoPage1}" press="onNavigatePage1"/>
+        </content>
+    </Page>
+</mvc:View>

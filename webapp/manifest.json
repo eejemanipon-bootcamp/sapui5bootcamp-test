@@ -19,8 +19,8 @@
   "sap.ui": {
     "technology": "UI5",
     "icons": {
-      "icon": "",
-      "favIcon": "",
+      "icon": "sap-icon://home",
+      "favIcon": "sap-icon://home",
       "phone": "",
       "phone@2": "",
       "tablet": "",
@@ -69,22 +69,41 @@
         "type": "View",
         "viewType": "XML",
         "path": "com.ui5.test.sapui5bootcamptest.view",
+        "bypassed": {
+          "target": "notFound"
+        },
         "async": true,
         "viewPath": "com.ui5.test.sapui5bootcamptest.view"
       },
       "routes": [
         {
-          "name": "RouteTest1",
+          "name": "appHome",
           "pattern": ":?query:",
           "target": [
-            "TargetTest1"
+            "home"
+          ]
+        },
+        {
+          "name": "page1",
+          "pattern": "page1",
+          "target": [
+            "page1"
           ]
         }
       ],
       "targets": {
-        "TargetTest1": {
-          "id": "Test1",
-          "name": "Test1"
+        "home": {
+          "id": "home",
+          "name": "Home"
+        },
+        "notFound": {
+          "id": "notFound",
+          "name": "NotFound",
+          "transition": "show"
+        },
+        "page1": {
+          "id": "page1",
+          "name": "Page1"
         }
       }
     },

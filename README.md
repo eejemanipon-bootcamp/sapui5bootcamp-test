@@ -37,3 +37,4 @@ A SAP Fiori Test application.
 ##### Additional notes
 
 This is Sprint 1
+This is Sprint 2

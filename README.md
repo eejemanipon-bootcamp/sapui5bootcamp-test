@@ -38,4 +38,7 @@ A SAP Fiori Test application.
 
 This is Sprint 1     
 This is Sprint 2  
-This is Sprint 3
+This is Sprint 3  
+
+
+![Alt text](images/example.png)

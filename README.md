@@ -41,4 +41,4 @@ This is Sprint 2
 This is Sprint 3  
 
 
-![Alt text](webapp/resources/output.png)
+![Alt text](resources/output.png)
